@@ -25,7 +25,6 @@ deps:
 install:
 	install -m0755 dist/diskgem $(PREFIX)/bin/diskgem
 	install -m0644 man/diskgem.1 $(PREFIX)/share/man/man1/diskgem.1
-	mandb -q
 
 clean:
 	rm -rf dist/diskgem*
