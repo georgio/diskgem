@@ -2,7 +2,7 @@
 #
 # Copyright (C) 2018 Nadim Kobeissi <nadim@nadim.computer>. All Rights Reserved.
 
-PREFIX ?= /usr/local/opt
+PREFIX ?= /usr/local/Cellar
 
 all: deps
 	go build -ldflags="-s -w" -o dist/diskgem src/*
